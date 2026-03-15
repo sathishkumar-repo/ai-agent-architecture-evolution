@@ -1,0 +1,162 @@
+# =========================================================
+# OS FILES
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =========================================================
+# ENV FILES (NEVER COMMIT SECRETS)
+# =========================================================
+.env
+.env.*
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# =========================================================
+# PYTHON / FASTAPI
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# logs
+*.log
+
+# database files
+*.db
+*.sqlite3
+
+# celery
+celerybeat-schedule
+
+# Jupyter
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# =========================================================
+# NODE / NEXTJS
+# =========================================================
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# Production builds
+build/
+dist/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# lock files (optional decision)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# =========================================================
+# TYPESCRIPT
+# =========================================================
+*.tsbuildinfo
+
+# =========================================================
+# IDE / EDITORS
+# =========================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================================================
+# DOCKER
+# =========================================================
+docker-compose.override.yml
+*.pid
+*.seed
+
+# =========================================================
+# TEMP FILES
+# =========================================================
+tmp/
+temp/
+*.tmp
+
+# =========================================================
+# CACHE
+# =========================================================
+.cache/
+.eslintcache
+
+# =========================================================
+# UPLOADS / USER DATA
+# =========================================================
+uploads/
+media/
+storage/
+
+# =========================================================
+# MACHINE LEARNING / AI ARTIFACTS (future proof)
+# =========================================================
+checkpoints/
+embeddings/
+vectorstore/
+faiss_index/
+
+# =========================================================
+# TEST OUTPUT
+# =========================================================
+coverage/
+test-results/
+
+# =========================================================
+# MAC / LINUX
+# =========================================================
+.AppleDouble
+.LSOverride
+
+# =========================================================
+# WINDOWS
+# =========================================================
+ehthumbs.db
+Icon?
+

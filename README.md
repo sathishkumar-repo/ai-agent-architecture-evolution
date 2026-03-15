@@ -1,10 +1,20 @@
 # AI Agent Architecture Evolution
 
-This project demonstrates how AI agents evolve from:
+This project demonstrates the evolution of AI agent architectures:
 
-1. Basic LLM apps
-2. LangChain tool-based agents
-3. LangGraph workflow agents
+1. Basic LLM application
+2. LangChain agents with tools
+3. LangGraph workflows
 4. MCP-based tool infrastructure
 
-The goal is to understand why MCP exists and what problems it solves.
+---
+
+## Stage 1: Basic LLM Application
+
+Architecture:
+
+User → LangChain → LLM → Response
+
+Purpose:
+
+Understand the fundamental building block of AI applications before introducing tools and agents.
