@@ -13,6 +13,6 @@ while True:
         break
     response = llm.invoke(user_input)
 
-    print(f"LLM: {response}")
+    print(f"LLM: {response.content}")
 
     print()

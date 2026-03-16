@@ -1,0 +1,4 @@
+LangChain is a framework for building AI applications.
+
+Agents allow LLMs to use tools.
+LangGraph is used for building stateful AI workflows.
